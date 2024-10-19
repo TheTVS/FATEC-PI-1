@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleteste.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="cont1">
+        <input type="number" id="pesquisa" placeholder="Num Ap ..." class="pesquisa">
+        <img src="lupa.png" alt="" onclick="procurar()" class="pesquisa">
+    </div>
+
+    <div class="cont6">
+        <div class="cont2">
+            <p class="antes" id="andar">Sorteie Primeiro</p>
+        </div>
+        <a class="button" href="regras.html">Voltar</a>
+    </div>
+    
+      <div class="cont3">
+                <p class="pcds">
+                <label for="vagas">Digite os números dos apartamentos dos pcds:</label>
+                <input type="text" id="vagas" placeholder="Ex: 1, 2, 3, 4 ,5" class="pcds">
+                </p>
+        </div>
+    
+    <div class="cont5">
+        <div class="cont4">
+            <button onclick="if(listafinal[0]==undefined){main()}" id="selecionar">Selecionar</button>
+            <div id="data" class="data"></div>
+            <br>
+            <table id="pcds" class="pcds">
+
+            </table>
+            <table id="lista" class="geral">
+
+            </table>
+        </div>
+    <div>
+   
+</body>
+</html>

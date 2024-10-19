@@ -1,0 +1,50 @@
+body{
+    background: rgb(63,75,92);
+    background: linear-gradient(219deg, rgba(63,75,92,1) 0%, rgba(23,30,41,1) 100%);
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Krona One", sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+p.cpr{
+    color:rgba(255, 255, 255,47%);
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+img.fatec{
+    position: absolute;
+    bottom: 15px;
+    right: 90px;
+    width: 130px;
+}
+img.dsm{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 80px;
+}
+a.button {
+    position: absolute;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    border: solid 1px white;
+    border-radius: 40px;
+    background-color: #1A212D;
+    color: white;
+    bottom: 100px;
+    right: 50px;
+}
+a.button:hover{
+    background-color: white;
+    color:#1A212D;
+}
